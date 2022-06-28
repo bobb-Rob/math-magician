@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 
 .calculator-container {
-  width: 12rem;
+  width: 20rem;
   margin: 2rem auto;
 }
 
 .cal-screen {
   background-color: rgb(146, 144, 141);
-  height: 1.8rem;
+  height: 2.8rem;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   padding-right: 0.2rem;
-  font-size: 0.75rem;
+  font-size: 1.2rem;
   color: white;
   font-family: 'Poppins', sans-serif;
 }
@@ -23,8 +23,8 @@
 }
 
 .calculator-digits input {
-  height: 1.8rem;
-  font-size: 0.45rem;
+  height: 2.8rem;
+  font-size: 0.85rem;
   border: 0.5px solid rgb(195, 192, 192);
   font-family: 'Poppins', sans-serif;
 }
