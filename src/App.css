@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .calculator-container {
   width: 20rem;
   margin: 2rem auto;
@@ -48,4 +54,43 @@
 
 .divide {
   border-top: none;
+}
+
+.navbar {
+  height: 4rem;  
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 5px 0px #4d4c4c;
+  color: #4d4c4c;
+  font-family: 'Poppins', sans-serif;
+}
+
+.link {
+  padding: 0 0 0 1rem;
+  text-decoration: none;
+  color: #4d4c4c;
+}
+
+.mobile-menu {
+  background-color: white;
+  border: none;
+  display: flex;
+  align-items: center; 
+}
+
+.desktop-nav {
+  display:  none;
+}
+
+
+@media screen and (min-width: 474px) {
+  .mobile-menu {
+    display: none;
+  }
+
+  .desktop-nav {
+    display:  block;
+  }
 }
