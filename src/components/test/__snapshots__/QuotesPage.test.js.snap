@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the quote component Quotes is rendered 1`] = `
+<div
+  className="quotes-page"
+>
+  <h3>
+    Mathematics is not about nu,bers, equations, computations,
+    <br />
+    or algorithms: it is abput understanding. William Paul Thurston
+  </h3>
+</div>
+`;

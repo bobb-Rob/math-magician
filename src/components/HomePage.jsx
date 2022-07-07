@@ -23,7 +23,6 @@ const HomePage = () => (
       temporibus impedit labore voluptatibus tenetur fugiat vero aperiam
       eligendi, maiores dolores!
     </p>
-
   </div>
 );
 
